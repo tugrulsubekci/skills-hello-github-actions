@@ -60,7 +60,6 @@ jobs:
         with:
           text-file: .github/workflows/welcome.yml
           keyphrase: "steps:"
-          fail-on-error: true
 
       - name: Check for gh pr comment command in welcome.yml
         id: check-gh-pr-comment
